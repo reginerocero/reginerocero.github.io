@@ -1,0 +1,130 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+ /* IP */
+ /*background-color:red;*/
+ /*background-color:lime;*/
+ /*background-color:blue;*/
+ /*background-color:cyan;*/
+ /*background-color:magenta;*/
+ /*background-color:grey;*/
+
+
+.ip {
+	width:100vw;
+	height:100vh;
+	background-color:pink;
+	display:flex;
+	align-items:center;
+	justify-content:center
+	flex-wrap:flex;
+
+}
+
+.ip-text {
+	font-size:12vw;
+	color:white;
+	font-family:courier new;
+
+
+}
+
+.checkers {
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+.checkers-black {
+	flex: 0 0 50%;
+	height:50vh;
+	background-color:black;
+	/*background-image:linear-gradient (lime, blue);*/
+	
+
+}
+
+.checkers-white {
+	flex: 0 0 50%;
+	height:50vh;
+	background-color:white;
+
+
+}
+
+/*Checkers Type*/
+
+.checkers-type {
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:fixed;
+	top:0;
+	left:0;
+
+}
+
+.checkers-text {
+	font-size:20vw;
+	color:lime;
+	border:1.7vw solid lime;
+	border-radius:1.9vw;
+	padding:5vw;
+	background-color:red;
+
+
+}
+
+/*User*/
+
+.user {
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	background-color:yellow;
+
+}
+
+.avatar {
+	width:25vw;
+	height:25vw;
+	background-color:purple;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-radius:50%;
+
+}
+
+.letter {
+	color:black;
+	font-size:100px;
+
+}
+
+/*Image*/
+
+.around-globe {
+	background-color:cyan;
+	height:100vh;
+
+}
+
+.around-globe img {
+	width:100%;
+	height:;
+
+}
+

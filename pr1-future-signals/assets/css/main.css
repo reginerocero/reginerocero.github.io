@@ -1,0 +1,140 @@
+body {
+	font-family: Futura;
+	font-size: 32px;
+}
+ 
+
+a {
+	color:red;
+} 
+
+.nav {
+	width: 100%;
+	background-color: black;
+	padding: 20px;
+	position: fixed;
+	bottom:10px;
+	left:80px;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 5px;
+	background-color:red;
+	border-radius:0px;
+	color:black;
+	text-decoration:line-through;
+
+}
+
+.nav-header{
+	display: inline-block;
+	padding: 5px;
+	color: red;
+}
+
+.title {
+	width:100%;
+
+
+}
+
+.title img {
+	width: 100%;
+
+
+}
+
+.essay{
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom: 80px;
+	background-image: url(file:///Users/reginegracerocero/Documents/Y3S2/Digital%20Publishing/reginerocero.github.io/pr1-future-signals/assets/images/soylentbar%20copy.jpg);
+
+}
+
+.text {
+	
+	padding: 10% 22% 20px 22%;
+
+
+}
+
+.text h1 {
+	font-size:60px;
+	color: red;
+	margin-bottom:33.333vh;
+
+
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+
+}
+
+.text p{
+	margin-bottom:10px;
+	color:white;
+
+}
+
+
+
+.figure {
+	flex: 100%;
+
+
+}
+
+
+.figure img {
+	width: 100%;
+
+
+
+}
+
+.figure {
+	font-size:12px;
+	color:red;
+}
+
+.research{
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:80px;
+}
+
+.research-item {
+	flex: 0 0 33.333%;
+	padding: 0px;
+	transition:2s;
+}
+
+.research-item img{
+	width: 100%;
+}
+
+.research-item span{
+	color: gray;
+}
+
+/*interactive classes*/
+
+.large{
+	flex: 0 0 66.666%;
+	transition: 2s;
+}
+
+.hide {
+	display:none;
+}
+
+.active {
+	background-color:red;
+}
+
+
+
+
+
