@@ -124,7 +124,205 @@ a {
 
 .around-globe img {
 	width:100%;
-	height:;
+	height:55vw;
 
 }
 
+
+.box-sw {
+  height:100vh;
+  width:100%; 
+  background-color:green;
+  display:flex;
+  
+  
+}
+
+.sand {
+  flex:1 1;
+  height:100vh;
+  background-color: yellow;
+  
+}
+
+.water {
+  flex:0 0 25%;
+  height:100vh;
+  background-color:blue;
+  animation-name:water;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
+@keyframes water {
+  0% {
+    flex:0 0 10%;
+  }
+  
+  100% {
+    flex:0 0 50%;
+  }
+}
+
+
+
+.cloud {
+	background-color:white;
+	animation-name:growUG;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+
+
+.notif2 {
+	background-color: white;
+    width: 100%; 
+    height: 100%; 
+    align-items:center;
+    justify-content: center;
+
+
+}
+
+
+.netflix {
+	width:100vw;
+	height:100vh;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	justify-content:center
+	
+
+}
+
+.netflix-text {
+	font-size:3vw;
+	color:white;
+	font-family:Arial;
+	text-align:center;
+
+}
+
+.continue-text {
+	font-size:2vw;
+	color:white;
+	font-family:Arial;
+	text-align:center;
+	padding:10px;
+	border:3px lightgrey;
+	width:350px;
+	background-color:lightgrey;
+	color:black;
+	margin: 90px auto;
+	margin-bottom:-90px;
+	border-radius: 5px;
+	justify-content:center
+	width:33%;
+	position: fixed;
+	left: 36%;
+
+	
+}
+
+.back-text {
+	font-size:2vw;
+	color:white;
+	font-family:Arial;
+	text-align:center;
+	margin: 150px auto;
+	margin-bottom:-90px;
+	border-radius: 5px;
+	justify-content:center
+	width:33%;
+	position: fixed;
+	left: 48%;
+}
+
+
+
+.binary {
+	width:100vw;
+	height:100vh;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	justify-content:center
+	
+
+}
+
+.binary-text {
+	font-size:3vw;
+	color:green;
+	font-family:courier new;
+	text-align:center;
+}
+
+.memory {
+	width:100vw;
+	height:100vh;
+	background-color:blue;
+	display:flex;
+	align-items:center;
+	justify-content:center
+
+}
+
+.memory-text {
+	font-size:4vw;
+	color:ghostwhite;
+	font-family:courier;
+	text-align:center;
+	
+}
+
+#rectangle{
+    width:400px;
+    height:50px;
+    background:ghostwhite;
+	justify-content:center
+	width:33%;
+	position: fixed;
+	left: 26%;
+	padding:10px;
+	margin: 90px auto;
+	margin-bottom:-90px;
+	
+}
+
+.computermemory img{
+	width:33%;
+	position: absolute;
+	left: 36%;
+}
+
+.compmem-text {
+	font-size:15vw;
+	color:red;
+	font-family:helvetica;
+	text-align:center;
+	position:absolute;
+
+}
+
+.sorry-text {
+	font-size:4vw;
+	color:deepskyblue;
+	font-family:helvetica;
+}
+
+.message-text {
+	font-size:1vw;
+	color:black;
+	font-family:helvetica;
+	text-align:center;
+}
+
+
+	
