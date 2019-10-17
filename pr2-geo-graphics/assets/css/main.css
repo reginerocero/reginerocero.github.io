@@ -180,12 +180,18 @@ a {
 
 
 .notif2 {
-	background-color: white;
-    width: 100%; 
-    height: 100%; 
-    align-items:center;
-    justify-content: center;
+	width: 60%;
+	margin:1px auto;
+	display:block;
 
+
+}
+
+.notif2-text {
+	font-size:3vw;
+	color:black;
+	font-family:impact;
+	text-align:center;
 
 }
 
@@ -324,5 +330,206 @@ a {
 	text-align:center;
 }
 
+.uploadcloud img{
+	margin:90px auto;
+	display:block;
+}
 
+.uploadcloud-text {
+	font-size:3vw;
+	color:green;
+	font-family:futura;
+	text-align:center;
 	
+
+}
+
+.qrcode img{
+	width:300px;
+	height:auto;
+	margin:90px auto;
+	display:block;
+}
+
+.qrcode-text {
+	font-size: 30px;
+	color:black;
+	font-family:courier;
+	text-align:center;
+}
+
+.blueelectric img{
+	width:100%;
+	height:auto;
+	position:relative;
+	top:0;
+	left: 0;
+
+}
+
+.facebooklogo img{
+	width:30%;
+	height:auto;
+	position:absolute;
+	top:50px;
+	left: 40px;
+
+}
+
+.facialrecognition img{
+	width:100%;
+	height:auto;
+	top:20px;
+	left:40px;
+
+}
+
+.facialrecognition-text {
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:380px;
+	left: 50px;
+	font-family:courier;
+	font-size:80px;
+	color:red;
+	background-color:black;
+	justify-content:center
+	
+}
+
+.batteryfull {
+	background-color:black;
+	width:100%;
+	height:auto;
+}
+
+.batteryfull img {
+	width:50%;
+	height:auto;
+	top:3px;
+	left:300px;
+	position:relative;
+}
+
+.batteryfull-text {
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:100px;
+	left: 360px;
+	font-family:arial;
+	font-size:80px;
+	color:white;
+	
+}
+
+.gridbackground img{
+	width:100%;
+	height:auto;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.sega img{
+	width:50%;
+	height:auto;
+	position:absolute;
+	top:180px;
+	left:300px;
+}
+
+.dvd {
+	width:100vw;
+	height:100vh;
+	background-color:black;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+.dvd img{
+	width:20%;
+	height:auto;
+	top:180px;
+	left:300px;
+	
+}
+
+.ctrlc img {
+	width:50%;
+	top:400px;
+	left:300px;
+	position:absolute;
+}
+
+.powerbutton img{
+	top:2px;
+	left:130px;
+	position:absolute;
+	filter:drop-shadow(0 0 5px grey);
+}
+
+.loading img{
+	top:200px;
+	left:500px;
+	position:absolute;
+}
+
+.fingerprint img{
+	position:absolute;
+}
+
+
+#scanner{
+    width:1000px;
+    height:1px;
+    background:lime;
+	justify-content:center
+	width:100%;
+	position: fixed;
+	left: 26%;
+	padding:1px;
+	margin: 90px auto;
+	margin-bottom:-90px;
+	filter:drop-shadow(0 0 5px lime);
+}
+
+.sonar img{
+	width:100%;
+	height:auto;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.sonar-text {
+	color:red;
+	font-family:changeling neo;
+	position:absolute;
+	font-size:60px;
+	top:310px;
+	left:55px;
+	background:black;
+}
+
+.like img{
+	width:30%;
+	height:auto;
+	top:100px;
+	left:80px;
+	position:relative;
+
+
+}
+
+.like-text{
+	color:steelblue;
+	font-family:arial;
+	font-size:45px;
+	left:500px;
+	top:-70px;
+	position:relative;
+	
+}
