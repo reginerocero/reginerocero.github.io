@@ -1,0 +1,214 @@
+/*homepage*/
+
+.sidebar {
+	position: fixed;
+	width:25%;
+	top:0px;
+	left:0px;
+	height:100vh;
+	font-size: 2vw;
+	text-transform: uppercase;
+	background-color:red;
+}
+
+.sidebar-content {
+	padding: 10px;
+}
+
+.sidebar-content img {
+	width: 90%;
+	height:auto;
+	display:inline-block;
+}
+
+.guide-title {
+	font-size: 2vw;
+	color:yellow;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 5px;
+	background-color:yellow;
+	border-radius:0px;
+	color:black;
+	text-decoration:underline;
+}
+
+.title {
+	width:75%;
+	height:auto;
+	margin-left: 25%;
+	text-align: center;
+}
+
+.title-content {
+	padding: 10px; 
+	font-size:175px;
+
+}
+
+.definition-content {
+	margin-bottom: 3vw;
+	font-size: 3vw;
+	
+}
+
+
+
+
+
+
+/*article*/
+
+
+a {
+	color:red;
+}
+
+.fullscreen {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: yellow;
+
+}
+
+.fullscreen-content {
+	text-transform: uppercase;
+	font-size: 9vw;
+	text-align: center;
+	font-family: futura;
+	color:red;
+	
+}
+
+.main {
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	background-image:url (file:///Users/reginegracerocero/Documents/Y3S2/Digital%20Publishing/reginerocero.github.io/pr3-LAN3000/templates/assets/images/linedpaper.jpg);
+}
+
+p {
+	margin-top: 20px;
+}
+
+.fullscreen-content img {
+	width: 10%;
+	height:auto;
+	display:inline-block;
+}
+
+
+
+
+
+
+/*goodbadstudyhabits*/
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.heading {
+	font-family: futura;
+	font-size: 34px;
+	text-decoration: overline;
+}
+
+.left {
+	color: black;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
+	padding: 40px;
+	font-family: futura;
+	font-size: 20px;
+}
+
+.left img{
+	width: 10%;
+	height:auto;
+	display:inline-block;
+}
+
+.right {
+	color: red;
+	background-color: yellow;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;	
+}
+
+.right-content {
+	padding: 40px;
+	font-family: futura;
+	font-size: 20px;
+}
+
+.right img {
+	width: 10%;
+	height:auto;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+/*steps*/
+body {
+	font-family: futura;
+	font-size: 32px;
+}
+
+a {
+	
+}
+
+.intro {
+	padding: 10px;
+	color:black;
+	background:yellow;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+.title-steps {
+	flex:0 0 50%;
+}
+
+.arrow {
+	flex:0 0 15%;
+}
+
+.summary {
+	flex:0 0 25%;
+	font-size:20px;
+}
+
+.summary img{
+	width: 15%;
+	height:auto;
+	display:inline-block;
+}
+
